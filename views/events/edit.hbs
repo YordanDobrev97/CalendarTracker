@@ -1,0 +1,21 @@
+
+<form method="post" action="/events/update/{{event.id}}">
+  <div class="form-group">
+    <label for="formGroupExampleInput">Summary</label>
+    <input type="text" class="form-control" value="{{event.summary}}" name="summary" id="summary" placeholder="Summary">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Description</label>
+    <input type="text" class="form-control" value="{{event.description}}" name="description" id="description" placeholder="Description">
+  </div>
+  <div class="md-form md-outline input-with-post-icon datepicker">
+    <label>Start date</label>
+    <input placeholder="Start date" value="{{event.start.dateTime}}" type="date" name="startDate" id="startDate" class="form-control">
+  </div>
+  <div class="md-form md-outline input-with-post-icon datepicker">
+    <label>End date</label>
+    <input placeholder="End date" value="{{event.end.dateTime}}" type="date" name="endDate" id="endDate" class="form-control">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Update</button>
+</form>

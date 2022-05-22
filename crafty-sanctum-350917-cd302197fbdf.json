@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "crafty-sanctum-350917",
+  "private_key_id": "cd302197fbdf579119827fb63bb725bc559d8dff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCGX37v8LF+E30A\n88rWt3DlGLlx7NwRXPJTgOOZKPaRI+fe7oe8jVKfCzr0cV52Chp/2HGqdiRakLJ6\nAWtD/HLbaRZ20E3tyXR9N8zHvYbEprzDt4aXm4gijgg6mqu1IP4WpQUTOJhemr9W\nwedZJYtTC55DOKvsRhRKRLwOiJRCTHJJaYPLFwK3nOOanQyyy+4i4JLLYVwi4/es\nxCtVEnHhkjRVZFlvvUjOJvnhvxEy/WTKXfGz6DT2J2CIGEAxC6y6KlNzZeoKuffb\nfbpFnacbtos5WHk98dx/K9hOJ5Ea+mqHK3TkOUBsixtvIY1Al1pON+cvpgkeRBfb\nc7LDvcZbAgMBAAECggEAFqK/n2vMepCN3jszUDhWrEEd/DMKX2Jo7+gmbwaXgpup\n08Qa2Yh1ApXBuKvgXcIV9LNhcnW0ag02A5d5mlpMfumU/y7X8dad6PodZQhoS3hL\nFC02XxO0Ox3yBO1JP5nvM6FY2YQPJuCqmtLPRhUtAzBR2METNRoZEOnDRC99yi0Y\nFl/T7RjdVhJpcF/rMLpIBk9w5FD7uBcRFUu4ugOmMRU5KjydZGm+iUBMU6PwUiY7\nRckspDLHuB2gqIReH5Ny9QArRUXRwjgjkUl176VsVQycUiPUn+k0O3OKGXHxvzCd\nEIBsxPkmAjTs2x+uhZhKq/WYHMk8ItRGdNFTtlpWAQKBgQC6jyNA2pACZE33OLeh\nDdJLJaBD1PPqfFlva4YMLhtXlvw9n2a0dOj6qq/Qo3/Orw5IB6LT80K16MMjaxyp\nrFAWeEbkTJUZ5P1xsmtOSrPF85AgDeKbtOMN4SeyT2iw2/h9GsTJNBKlvCvjdj9P\nZa6hO+vXRS6vlaq8BzaG+G5RWQKBgQC4Y6UAmWnR+ShZZWOrEqsmUI5s7XrMtbAp\nuwJvKIiJHW2oEX9Slztg/aYmjgJSU+vVP0nmiEQDn3KBPMYCBXA2Vva4fH6n5DVX\nMayYqWXkQMz47SBgC7SN8+lOgW84JndBPzIMxMpWh62GQU/Wlzn4C5zZUlGrnnq4\nXzBb2RVK0wKBgHEJW4XnKAya8/aQYgrukfXAVYvkEuqH77SoBK+KnDyFGk7IL3W1\nxJhlJWQYPM9hmBiir9EWetw3rUzfkJ1p75i9xc58bHclHT9vqL7mWmjde/1ADIbl\nohF91AyhOsC2d6htuMBkkcvj6P/IXPHhnV7KLMrhezkeSTXmdO5wxn75AoGBAIwS\nHhFTeWCprq4iaFFXsC49+cPjr2p9BuLcjl/U4cuPUHLhP+CEw/XNGf+l1zulRrzL\nBB+dGlXKNVjZyu1UJkcRTwEcibaOlLq1IJEj9iQr2cmrkPGFUtaXGH+rscps5iDp\nmeK7R53uGbKoQLcaUE4OvEsWzrXZgQ44OWs8gIFDAoGBALGLcdNU565HWn3xvKmZ\nml9kllTzhDvHYl+Mi8olAHC9sxqCgyRlkxLVOSMdK2sG1vm0/aMOZySlDzPsWWzN\nA2nAiTTWxV0EBnlWhU/C7Q4BPIPCgZlGyHRK5SS9O981wuBsBmck1NjGP+mT4a9v\nX6Ce7v5sWMWu+N4GJtqiwlG5\n-----END PRIVATE KEY-----\n",
+  "client_email": "calendar-api@crafty-sanctum-350917.iam.gserviceaccount.com",
+  "client_id": "114714151369613989528",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendar-api%40crafty-sanctum-350917.iam.gserviceaccount.com"
+}

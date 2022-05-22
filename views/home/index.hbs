@@ -1,10 +1,54 @@
-
 <h1 class="text-center">Welcome</h1>
 
 <div class="container">
+  {{#if user}}
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <a href="/events/new" class="btn btn-primary">Create</a>
+    </div>
+
+    <div class="col-md-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Summary</th>
+            <th scope="col">Description</th>
+            <th scope="col">Start</th>
+            <th scope="col">End</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each events}}
+          <tr>
+            <th scope="row">1</th>
+            <td>{{summary}}</td>
+            <td>{{description}}</td>
+            <td>{{start.dateTime}}</td>
+            <td>{{end.dateTime}}</td>
+            <td>
+              <a href="/events/edit/{{id}}">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </a>
+              <form method="post" action="/events/delete/{{id}}">
+                <button type="submit"><i class="fa-solid fa-trash"></i></button>
+              </form>
+              <a href="{{htmlLink}}" target="_blank">
+                <i class="fa fa-link" aria-hidden="true"></i>
+              </a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {{else}}
   <div class="row">
     <div class="col text-center">
       <a href="/auth/google" class="btn btn-primary">Login with Google</a>
     </div>
   </div>
+  {{/if}}
 </div>

@@ -1,0 +1,46 @@
+[
+  {
+    "kind": "calendar#event",
+    "etag": "\"3306336647682000\"",
+    "id": "nueai7borms2lqtdsbig7gm388",
+    "status": "confirmed",
+    "htmlLink": "https://www.google.com/calendar/event?eid=bnVlYWk3Ym9ybXMybHF0ZHNiaWc3Z20zODggMW4wdnVqaDBiOXU4bXBpM2hzZmtobDUxbmNAZw",
+    "created": "2022-05-21T21:25:23.000Z",
+    "updated": "2022-05-21T21:25:23.865Z",
+    "summary": "My first event!",
+    "description": "First event with nodeJS!",
+    "location": "Hyderabad,India",
+    "creator": {
+      "email": "calendar-api@crafty-sanctum-350917.iam.gserviceaccount.com"
+    },
+    "organizer": {
+      "email": "1n0vujh0b9u8mpi3hsfkhl51nc@group.calendar.google.com",
+      "displayName": "tracker",
+      "self": true
+    },
+    "start": {
+      "dateTime": "2022-01-12T18:00:00+02:00",
+      "timeZone": "Asia/Dhaka"
+    },
+    "end": {
+      "dateTime": "2022-01-15T02:00:00+02:00",
+      "timeZone": "Asia/Dhaka"
+    },
+    "iCalUID": "nueai7borms2lqtdsbig7gm388@google.com",
+    "sequence": 0,
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "popup",
+          "minutes": 10
+        },
+        {
+          "method": "email",
+          "minutes": 1440
+        }
+      ]
+    },
+    "eventType": "default"
+  }
+]
